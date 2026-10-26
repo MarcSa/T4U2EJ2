@@ -18,6 +18,7 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.2",
+    "email-validator": "^2.0.4",
     "vue": "^3.5.42",
     "vue-router": "^5.3.1"
   },

@@ -14,6 +14,9 @@ importers:
       bootstrap-icons:
         specifier: ^1.13.2
         version: 1.13.2
+      email-validator:
+        specifier: ^2.0.4
+        version: 2.0.4
       vue:
         specifier: ^3.5.42
         version: 3.5.44(typescript@6.0.3)
@@ -1068,6 +1071,10 @@ packages:
 
   electron-to-chromium@1.5.453:
     resolution: {integrity: sha512-9r/nz9akllr3SZsHUhfK10ktUH6j0Dbo3cKdh91khw0FvR6HhXGnATmOq5X8ena2aq4GXLQ1koh3nvKaQJaNmQ==}
+
+  email-validator@2.0.4:
+    resolution: {integrity: sha512-gYCwo7kh5S3IDyZPLZf6hSS0MnZT8QmJFqYvbqlDZSbwdZlY6QZWxJ4i/6UhITOJ4XzyI647Bm2MXKCLqnJ4nQ==}
+    engines: {node: '>4.0'}
 
   entities@7.0.1:
     resolution: {integrity: sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==}
@@ -3025,6 +3032,8 @@ snapshots:
       semver: 7.8.5
 
   electron-to-chromium@1.5.453: {}
+
+  email-validator@2.0.4: {}
 
   entities@7.0.1: {}
 

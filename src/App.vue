@@ -1,17 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import CounterComponent from '@/components/CounterComponent.vue';
-
-const last = ref(0);
+import SignUpForm from '@/components/SignUpForm.vue';
+const message = ref<string>('');
+console.log(message);
 </script>
 
 <template>
     <main class="container">
-        <h1 v-once>Comunicación entre componentes</h1>
-        <CounterComponent @update="last = $event" />
-        <CounterComponent :initial="5" :step="2" @update="last = $event" />
-        <CounterComponent :initial="14" @update="last = $event" />
-        <p>Último valor recibido: {{ last }}</p>
+        <h1 v-once class="text-center">Registro usuarios</h1>
+        <SignUpForm />
+        <p class="message"></p>
     </main>
 </template>
 
